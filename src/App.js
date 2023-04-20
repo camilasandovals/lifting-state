@@ -17,7 +17,7 @@ function App() {
           <Login setUser={setUser}/>
         </section>
         <section  style={{border:'2px solid blue', width: '100%', padding:'16px'}}>
-          <Dashboard user={user}/>
+          <Dashboard user={user} setUser={setUser}/>
         </section>
       </header>
     </div>
