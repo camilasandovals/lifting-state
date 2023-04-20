@@ -1,5 +1,8 @@
-export default function Signup() {
+export default function Signup({setUser}) {
     return (
+        <>
         <h2>Sign up</h2>
+        <button onClick={()=> {setUser('New User')}}>Sign up</button>
+        </>
     )
 }
